@@ -370,6 +370,12 @@ nav .fas ,nav .fab{
     color: #ff4436;
     margin: 0 15px;
     padding: 18px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.icons .fas ,.fab:hover{
+    transform: scale(3);
 }
 
 /*-------About Section--------------------------------*/
@@ -387,4 +393,133 @@ nav .fas ,nav .fab{
 
 .about-header h1{
     margin-top: 10px;
+}
+
+.about-content{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0 50px;
+    margin: auto;
+}
+
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.about-col img{
+    width: 100%;
+}
+
+.about-col a {
+    color:#F88517;
+
+}
+
+.about-col a:hover{
+    color: #fff;
+}
+
+.about-col h1{
+    padding-top: 0;
+}
+.about-col p{
+    padding: 15px 0 25px;
+}
+
+.course-header, .blog-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(
+        rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(/images/background.jpg);
+    background-position: center;    
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+
+}
+
+
+/*BLOG Part*/
+
+.blog-content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.blog-left{
+    flex-basis: 65%;
+}
+
+.blog-left img{
+    width:100%;
+}
+
+.blog-left h2{
+    color: #222;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.blog-left p{
+    color: #999;
+    padding: 0;
+}
+
+.blog-right{
+    flex-basis: 32%;
+}
+
+.blog-right h3{
+    background: #ff4436;
+    color: antiquewhite;
+    padding: 7px 0;
+    font-size:1rem;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.blog-right div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #555;
+    padding: 10px;
+}
+
+.comment-box{
+    border: 1px solid #ccc;
+    margin:50px 0;
+    padding: 10px 20px;
+}
+
+.comment-box h3{
+    text-align: left;
+}
+.comment-form input , .comment-box textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+    transition: 0.5s;
+    
+}
+
+.comment-form button{
+    border:1px solid #ff4436;
+    color:#ff4436;
+}
+
+.comment-box button:hover{
+    color: #fff;
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .blog-header{
+        font-size: 1.33rem;
+    }
 }
