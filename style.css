@@ -369,5 +369,22 @@ nav .fas ,nav .fab{
 .icons .fas ,.fab{
     color: #ff4436;
     margin: 0 15px;
-    padding: 18px;
+    padding: 18px 0;
+}
+
+/*-------About Section--------------------------------*/
+.about-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(
+        rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(/images/about-banner.jpg);
+    background-position: center;    
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+
+}
+
+.about-header h1{
+    margin-top: 10px;
 }
